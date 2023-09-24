@@ -10,7 +10,7 @@ test:
 
 format:	
 	black source/*.py 
-	
+
 lint:
 	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
 
@@ -18,6 +18,5 @@ refactor: format lint
 
 all: install lint format test
 
-plot:
-	python3 source/main.py
+
 
