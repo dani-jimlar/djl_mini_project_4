@@ -7,6 +7,5 @@ For this project, the following matrix of combinations with different python and
 
 - ubuntu latest version and python 3.8
 - ubuntu latest version and python 3.9
-- ubuntu latest version and python 3.10 
-- ubuntu 20.04 and pyhton 3.9
-- ubuntu 20.4 and python 3.10
+- ubuntu 20.04 and pyhton 3.8
+- ubuntu 20.4 and python 3.9
