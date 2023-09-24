@@ -10,8 +10,7 @@ test:
 
 format:	
 	black source/*.py 
-	nbqa black source/*.ipynb
-
+	
 lint:
 	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
 
