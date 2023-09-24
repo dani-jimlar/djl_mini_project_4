@@ -46,8 +46,7 @@ jobs:
         run: make test
       - name: format
         run: make format
-
-- name: Build status badge
+      - name: Build status badge
         uses: RubbaBoy/BYOB@v1.3.0
         with:
           NAME: ${{ matrix.name }}
