@@ -14,7 +14,7 @@ format:
 	nbqa black source/*.ipynb
 
 lint:
-	nbqa ruff --fix source/*.ipynb
+	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
 
 refactor: format lint	
 
