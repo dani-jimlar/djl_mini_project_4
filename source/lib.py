@@ -3,7 +3,7 @@ This fun prints descriptive analytics of a data set
 """
 
 import pandas as pd
-import seaborn as sns
+#import seaborn as sns
 import matplotlib.pyplot as plt
 
 def print_ds_info(data):
@@ -66,11 +66,8 @@ if __name__ == "__main__":
     # Read the CSV file
     my_data = pd.read_csv("source/imp_edos_2.csv", encoding="ISO-8859-1")
     # Print dataset info
-    print_ds_info(my_data)
+    #print_ds_info(my_data)
     safe_data_vis2(my_data)
     selected=my_data.iloc[:,3]
     # generate graph
-    print_mean(selected)
-    print_median(selected)
-    print_max(selected)
-    print_min(selected)
+    
