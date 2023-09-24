@@ -7,3 +7,8 @@ pathlib==1.0.1
 seaborn
 matplotlib
 Pillow
+nbval==0.10.0
+requests==2.31.0
+nbval==0.10.0
+nbqa==1.7.0
+ruff==0.0.290
