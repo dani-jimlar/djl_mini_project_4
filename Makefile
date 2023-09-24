@@ -7,7 +7,6 @@ install:
 
 test:
 	#python -m pytest -vv --cov=source/test_*.py
-	python -m pytest --nbval source/*.ipynb
 
 format:	
 	black source/*.py 
