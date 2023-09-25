@@ -8,3 +8,6 @@ For this project, the following matrix of combinations with different python and
 - ubuntu latest version and python 3.9
 - ubuntu 20.04 and pyhton 3.8
 - ubuntu 20.4 and python 3.9
+
+Link to successful GitHub Actions Matrix run:
+https://github.com/dani-jimlar/djl_mini_project_4/actions/runs/6292825133 
